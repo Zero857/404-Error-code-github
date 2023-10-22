@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0; 
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    background-color: rgba(13,17,23,1);
+    padding: 15rem;  
+    border-radius: 0.5rem; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+    max-width: 100rem; 
+}
+ /* githubis logo dabla */
+h1 {
+    position: absolute; 
+    top: 64%;          
+    left: 1;            
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+.description {
+
+    position: absolute; 
+    top: 65%;          
+    left: 1;            
+    font-size: 0.6rem;
+    margin-bottom: 1rem;
+    color: #525252;
+    margin-top: 5rem;
+
+}
+img {
+    display: block;
+    width: 100vw;      
+    height: auto;      
+    object-fit: cover; 
+    margin: 0 ;
+    position: absolute;
+    top: 3rem;
+    left: 0;
+}
+.dzebna{
+    width: 52%;
+    position: relative;
+    top: 23.6rem;
+    color: #777777;
+}
+p {
+    position: absolute; 
+    top: 70%;          
+    left: 1;            
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+input {
+    padding: 0.5rem; 
+    width: 60%;
+    border-radius: 0.5rem; 
+    border: 1px solid rgba(82, 82, 82, 0.1);
+    background-color:#0d1117 ;
+    z-index: 10;
+    position: relative;
+    top: 28rem;
+    color:white;
+}
+#zevit {
+    position: fixed;
+    top: 10px; 
+    right: 10px; 
+    left: 1400px;
+    width: 15rem;
+    color:white;
+  }
+button {
+    padding: 0.5rem 1rem; 
+    background-color: #3b3b3b;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5rem; 
+    cursor: pointer;
+    z-index: 10;
+    position: relative;
+    top: 28rem;
+}
+.marcxena {
+    position: fixed;
+    top: -50px;
+    right: 10px;
+    left: 0.1px;
+    width: 10rem;
+}
+
+.marcxena img {
+    max-width: 55%; 
+    height: auto; 
+}
+
+.sub {
+    position: absolute;
+    top: 79%; 
+    left: 13%;
+    background-color: #0d1117;
+    border: 1px solid #777777;  
+    border-radius: 10px;  
+    padding: 15px 35px;  
+    color: #fff;  
+    cursor: pointer;  
+}
+.papa img{
+
+
+    width: 190px; 
+    height: auto; 
+left: 1660px;
+top: 10px;
+
+
+
+}
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35rem;
+    width: 55%; 
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.footer-links li {
+    margin:  1rem 0;
+    transition: transform 0.2s; 
+    list-style-type: none ;
+    margin-bottom: 5px;
+}
+
+.footer-links li:hover {
+    transform: translateY(-2px); 
+}
+
+
+.footer-links a {
+    color: #797979;
+    text-decoration: none;
+    padding: 0.2rem 0.5rem; 
+    transition: background-color 0.2s; 
+    border-radius: 5px; 
+}
+
+.footer-links a:hover {
+    background-color: #e6e6e6; 
+}
+
